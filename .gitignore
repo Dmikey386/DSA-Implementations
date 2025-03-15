@@ -1,4 +1,10 @@
+# Ignore compiled output
+/out
+/out/
+out/
+
+# Ignore IntelliJ IDEA files
 *.iml
 .idea/
-.DS_Store
-/out
+*.DS_Store
+

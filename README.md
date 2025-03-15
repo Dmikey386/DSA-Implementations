@@ -11,6 +11,22 @@ This repo is where I break down, rebuild, and experiment with fundamental **DSA 
 
 I'm doing this to deepen my understanding of Data Structures and Algorithms, and becasue it will be a fun and interesting project.
 
-✅ **Arrays**
+## Dynamic Array
+### ** Time Complexities (Big-O)**
+| Operation           | Method                      | Time Complexity |
+|---------------------|---------------------------|---------------|
+| **Adding element to end** | `add(T element)`          | **O(1)** (Amortized, O(n) when resizing) |
+| **Adding element at index** | `add(int index, T element)` | **O(n)** (Shift elements right) |
+| **Get element** | `get(int index)`          | **O(1)** |
+| **Check length** | `length()`               | **O(1)** |
+| **Check if empty** | `isEmpty()`             | **O(1)** |
+| **Find index of element** | `indexOf(T element)` | **O(n)** |
+| **Check if contains** | `contains(T element)` | **O(n)** |
+| **Remove by element** | `remove(T element)`   | **O(n)** (Shift elements left) |
+| **Remove by index** | `removeIndex(int index)` | **O(n)** (Shift elements left) |
+| **Resize array** | `resize()`              | **O(n)** (Copy elements to new array) |
+| **Print elements** | `print()`               | **O(n)** |
+| **Clear array** | `clear()`               | **O(n)** (Set all elements to `null`) |
 
-- Dynamic Array
+---
+
