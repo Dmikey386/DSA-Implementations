@@ -28,5 +28,24 @@ I'm doing this to deepen my understanding of Data Structures and Algorithms, and
 | **Print elements** | `print()`               | **O(n)** |
 | **Clear array** | `clear()`               | **O(n)** (Set all elements to `null`) |
 
+
+---
+
+## **Singly Linked List**
+### **Time Complexities (Big-O)**
+
+| Operation           | Method                      | Time Complexity |
+|---------------------|---------------------------|---------------|
+| **Add to end** | `append(T data)`          | **O(1)** |
+| **Add to front** | `prepend(T data)`         | **O(1)** |
+| **Insert at index** | `insert(int index, T data)` | **O(n)** (Traverse to index) |
+| **Get element** | `get(int index)`          | **O(n)** (Traverse to index) |
+| **Check length** | `length` (field access)  | **O(1)** |
+| **Check if empty** | `head == null`         | **O(1)** |
+| **Remove from front** | `removeFront()`        | **O(1)** |
+| **Remove from end** | `removeEnd()`          | **O(n)** (Traverse to second-last node) |
+| **Remove by index** | `remove(int index)`    | **O(n)** (Traverse to index) |
+| **Traverse to index** | `traversal(int index)` | **O(n)** |
+
 ---
 
