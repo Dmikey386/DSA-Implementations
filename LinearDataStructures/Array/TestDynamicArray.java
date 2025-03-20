@@ -1,4 +1,4 @@
-package LinearDataStructures;
+package LinearDataStructures.Array;
 
 public class TestDynamicArray {
     public static void main(String[] args) {
