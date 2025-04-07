@@ -1,4 +1,4 @@
-package LinearDataStructures.Array;
+package LinearDataStructures.dynamicarray;
 
 public class DynamicArray<T>{
     private T[] array; // Static Array holds data

@@ -1,4 +1,4 @@
-package LinearDataStructures.LinkedList;
+package LinearDataStructures.linkedlist;
 
 public class SinglyLinkedList<T> {
     Node<T> head;
