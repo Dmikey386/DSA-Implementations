@@ -76,7 +76,6 @@ public class DoublyLinkedList<T> {
             head = head.next;
             head.prev = null;
         }
-
         length--;
         return traversal.data;
     }
